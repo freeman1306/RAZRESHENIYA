@@ -1,0 +1,235 @@
+@media screen and (max-width: 578px) {
+  .footer-nav li a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .info li {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .clearance-cons .text-wraper .text {
+    font-size: 16px !important;
+    -webkit-line-clamp: 9;
+  }
+  .industries__item {
+    font-size: 4vw !important;
+  }
+  .industries__item .icon img {
+    max-width: 41px !important;
+  }
+  section.services .industries .icon {
+    margin-right: 30px;
+    width: 53px;
+    height: 42px;
+  }
+  .advantages__text {
+    font-size: 15px;
+  }
+  .advantages__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+  .advantages__item .icon {
+    margin: 1rem auto 3rem auto;
+  }
+  .gallery-container__item {
+    text-align: center;
+  }
+  .h3 {
+    font-size: 23px !important;
+  }
+  .google-rate {
+    width: 100%;
+  }
+  .canvas .text {
+    font-size: 14px !important;
+  }
+  .canvas {
+    padding: 22px 1rem !important;
+  }
+  .order-line {
+    padding: 10px 0rem !important;
+    text-align: center;
+  }
+  .order-line input {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .order-line__form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: transparent !important;
+  }
+  .order-line__form .btn-order_line-form {
+    background-color: #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .industries__item {
+    width: 70%;
+  }
+  .lang-mobile-wraper {
+    display: block !important;
+  }
+  .works-gallery .gallery-container {
+    margin-top: 0rem;
+  }
+  .socials .text {
+    font-size: 14px;
+  }
+  .transparent {
+    display: none;
+  }
+  .works-gallery .text {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .services {
+    padding: 3rem 0 !important;
+  }
+  .documents {
+    padding: 38px 0 82px 0;
+  }
+  .documents .canvas p {
+    font-size: 13px;
+    height: 33rem;
+  }
+  .description-section {
+    padding: 49px 0;
+  }
+  .reviews-gallery {
+    padding: 1rem 0;
+  }
+  .google-rate {
+    font-size: 12px;
+  }
+  .clearance-cons .text {
+    font-size: 17px;
+  }
+  .menu {
+    -webkit-transform: translatex(-110%);
+            transform: translatex(-110%);
+    position: absolute;
+    -webkit-transition: .5s;
+    transition: .5s;
+    z-index: 70;
+    display: block;
+  }
+  .big-nav {
+    display: none;
+  }
+  .h1 {
+    font-size: 31px !important;
+  }
+  .h2 {
+    font-size: 24px !important;
+  }
+  .find-us .form-desktop {
+    display: none;
+  }
+  .main-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gallery-container {
+    margin: 0 -3rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-toggle {
+    display: none;
+  }
+  .header-info {
+    font-size: 11px;
+  }
+  .form-mobile {
+    display: none;
+  }
+  .industries__item {
+    width: 45%;
+  }
+  .reviews-gallery .video {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .form-desktop {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  .advantages {
+    margin-top: 0;
+  }
+  .clearance-cons .text {
+    font-size: 18px !important;
+    max-width: 100% !important;
+  }
+  .canvas {
+    padding: 36px 3rem;
+  }
+  .canvas .text {
+    font-size: 15px;
+  }
+  .lang {
+    display: none;
+  }
+  .reviews-gallery__item {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .reviews-gallery__item .h5,
+  .reviews-gallery__item .position {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .advantages__text .text {
+    height: 24rem;
+  }
+  .clearance-cons .head {
+    height: 9rem;
+  }
+  .certificates-gallery .row {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .certificates-gallery__item {
+    margin: 1rem 0 1rem 14px;
+  }
+  .reviews-gallery {
+    padding: 6rem 0;
+  }
+  .reviews-gallery .video {
+    width: 100%;
+  }
+  .reviews-gallery__item {
+    text-align: left;
+  }
+  .header-info {
+    font-size: 16px;
+  }
+  .services .industries__item {
+    font-size: 15px !important;
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=media.css.map */
